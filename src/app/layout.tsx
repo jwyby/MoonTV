@@ -53,7 +53,6 @@ export default function RootLayout({
             <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
 <script>LA.init({id:"3MhIMmpA9QbFc2mp",ck:"3MhIMmpA9QbFc2mp"})</script>
       </head>
-      
       <body
         className={`${inter.className} min-h-screen bg-white text-gray-900 dark:bg-black dark:text-gray-200`}
       >
