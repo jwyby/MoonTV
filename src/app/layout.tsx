@@ -50,7 +50,10 @@ export default function RootLayout({
             __html: `window.RUNTIME_CONFIG = ${JSON.stringify(runtimeConfig)};`,
           }}
         />
+            <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"3MhIMmpA9QbFc2mp",ck:"3MhIMmpA9QbFc2mp"})</script>
       </head>
+      
       <body
         className={`${inter.className} min-h-screen bg-white text-gray-900 dark:bg-black dark:text-gray-200`}
       >
@@ -64,6 +67,8 @@ export default function RootLayout({
             <AuthProvider>{children}</AuthProvider>
           </SiteProvider>
         </ThemeProvider>
+         {/* ======================== ✅ 在这里添加统计代码 ======================== */}
+        <script> var _mtj = _mtj || []; (function () { var mtj = document.createElement("script"); mtj.src = "https://node90.aizhantj.com:21233/tjjs/?k=ry7wkuitipg"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(mtj, s); })(); </script>
       </body>
     </html>
   );
