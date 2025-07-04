@@ -56,6 +56,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} min-h-screen bg-white text-gray-900 dark:bg-black dark:text-gray-200`}
       >
+        
         <ThemeProvider
           attribute='class'
           defaultTheme='system'
